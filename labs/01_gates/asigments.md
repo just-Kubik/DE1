@@ -41,4 +41,4 @@ end architecture dataflow;
 
 https://www.edaplayground.com/x/DJWM
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   https://www.edaplayground.com/...
