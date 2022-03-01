@@ -6,12 +6,22 @@
 
    Greater than:
 
-   ![karnaf](https://user-images.githubusercontent.com/82287734/155307312-6aab0ac3-e017-4583-9df2-be7b7f838b3c.png)
+     |B1B0/A1A0| **00** | **01** | **11** | **10** |
+  | :-:    | :-:    | :-:    | :-:    | :-:    |
+  | **00** |   0    |   0    |   0    |   0    |
+  | **01** |   1    |   0    |   0    |   0    |
+  | **11** |   1    |   1    |   0    |   1    |
+  | **10** |   1    |   1    |   0    |   0    |
 
 
    Less than:
 
-   ![K-maps](images/kmap_empty.png)
+   |B1B0/A1A0| **00** | **01** | **11** | **10** |
+  | :-:    | :-:    | :-:    | :-:    | :-:    |
+  | **00** |   0    |   1    |   1    |   1    |
+  | **01** |   0    |   0    |   1    |   1    |
+  | **11** |   0    |   0    |   0    |   0    |
+  | **10** |   0    |   0    |   1    |   0    |
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
