@@ -6,23 +6,29 @@
 
 ```vhdl
 architecture Behavioral of t_ff_rst is
-    signal s_q : std_logic;
 begin
-    --------------------------------------------------------
-    -- p_t_ff_rst:
-    -- T type flip-flop with a high-active sync reset,
-    -- rising-edge clk.
-    -- q(n+1) = t./q(n) + /t.q(n)
-    --------------------------------------------------------
-    p_t_ff_rst : process(clk)
+
+ p_t_ff_rst : process(clk)
     begin
+        if rising_edge(clk) then  -- Synchronous process
 
-        -- WRITE YOUR CODE HERE
-
+            -- USE HIGH-ACTIVE RESET HERE
+            if (rst = '1')then
+                s_q <= '0';
+            else
+                if (t = '0')then
+                    s_q <= s_q;
+                else
+                    s_q <= not t;        
+                end if;               
+            end if;
+       end if; 
+       
     end process p_t_ff_rst;
-
-    q     <= s_q;
+    
+    q <= s_q;
     q_bar <= not s_q;
+    
 end architecture Behavioral;
 ```
 
