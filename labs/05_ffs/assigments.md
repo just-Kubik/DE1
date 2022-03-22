@@ -40,4 +40,5 @@ end architecture Behavioral;
 
 1. Image of the shift register block schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![image](https://user-images.githubusercontent.com/82287734/158578465-5056435c-7528-4572-b79c-585666feb802.png)
+  ![20220322_191024](https://user-images.githubusercontent.com/82287734/159547752-859bd68e-ca8e-4cec-aace-22f096e44ae1.jpg)
+
