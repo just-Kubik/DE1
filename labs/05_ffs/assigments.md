@@ -1,4 +1,4 @@
-# Lab 5: YOUR_FIRSTNAME LASTNAME
+# Lab 5: Jakub Brandejs
 
 ### Flip-flops
 
@@ -40,5 +40,6 @@ end architecture Behavioral;
 
 1. Image of the shift register block schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-  ![20220322_191024](https://user-images.githubusercontent.com/82287734/159547752-859bd68e-ca8e-4cec-aace-22f096e44ae1.jpg)
+  
+![20220322_191024](https://user-images.githubusercontent.com/82287734/159547918-fd94c822-88e8-467b-a244-ad06d0a75b3c.jpg)
 
