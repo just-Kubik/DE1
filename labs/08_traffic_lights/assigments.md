@@ -1,10 +1,11 @@
-# Lab 8: YOUR_FIRSTNAME LASTNAME
+# Lab 8: Jakub Brandejs
 
 ### Traffic light controller
 
 1. Figure of traffic light controller state diagram. The image can be drawn on a computer or by hand. Always name all states, transitions, and input signals!
 
-   ![your figure]()
+  ![DE1_semafor](https://user-images.githubusercontent.com/82287734/163054399-7f8d138b-e113-41ca-83c5-5fb72888bdf4.jpg)
+
 
 2. Listing of VHDL code of the completed process `p_traffic_fsm`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
